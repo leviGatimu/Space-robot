@@ -26,7 +26,7 @@ We are currently in **Phase 1: Blueprint & Logic Mapping**. Before we cut metal,
 
 | **Current Core Schematic** |
 | :---: |
-| <img src="./assets/images/design_sketch.png" alt="Robot Design Sketch" width="600"/> |
+| <img src="" alt="Robot Design Sketch" width="600"/> |
 | *Fig 1.0: Initial Concept Draft - Focusing on high-clearance suspension.* |
 
 *(Be sure to add your `design_sketch.png` to the `assets/images/` folder!)*
@@ -63,3 +63,11 @@ graph TD;
     F -- No --> B;
     G --> H[📦 Secure Storage];
     H --> B;
+```
+🛠️ Hardware Materials & Manifest
+We have compiled the initial Bill of Materials required to move to the build phase.
+
+<a href=""📄 CLICK HERE TO VIEW THE FULL MATERIALS PDF
+
+
+Includes specs for high-torque servos, LiPo power specs, and chassis aluminum grades.
