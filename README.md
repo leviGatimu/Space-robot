@@ -1,45 +1,65 @@
-# 🚀 Planetary Scout: Autonomous Sample Collector
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=PLANETARY%20SCOUT&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Autonomous%20Sample%20Collection%20Unit&descAlignY=55&descAllign=60" alt="Planetary Scout Header" width="100%"/>
+</div>
 
-![Project Status](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)
-![Mission](https://img.shields.io/badge/Mission-Sample%20Collection-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+<div align="center">
 
-> **Mission Directive:** To autonomously navigate extraterrestrial terrains, identify viable geological samples, and retrieve them safely—eliminating the risk to human astronauts.
+![Mission Status](https://img.shields.io/badge/Mission_Phase-Phase_1:_Design_&_Prototyping-8A2BE2?style=for-the-badge&logo=shuttle&logoColor=white)
+![Operator](https://img.shields.io/badge/Operator-Autonomous_AI-00C853?style=for-the-badge&logo=robot&logoColor=white)
+![Environment](https://img.shields.io/badge/Target_Environment-Hazardous_Exoplanets-FF3D00?style=for-the-badge&logo=googleearth&logoColor=white)
 
----
-
-## 🌌 Overview
-This project focuses on building a semi-autonomous rover designed for high-risk planetary environments. Unlike traditional rovers that require constant manual input, the **Planetary Scout** uses onboard sensors to detect obstacles and identifies interesting rock formations for collection.
-
-### Key Features
-* **🤖 Autonomous Navigation:** Obstacle avoidance using ultrasonic/LiDAR sensors.
-* **🪨 Sample Retrieval:** Robotic arm mechanics for grabbing and storing soil/rock samples.
-* **📡 Telemetry:** Real-time data transmission of temperature, radiation levels, and visual feeds.
-* **🔋 Solar Efficiency:** Power management system for long-duration missions.
+</div>
 
 ---
 
-## 🛠️ Build Materials & Hardware
-We have compiled a complete list of all sensors, motors, chassis parts, and microcontrollers used in this build.
+### <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&width=435&lines=Mission+Directive%3A;Go+where+humans+cannot.;Collect+samples.+Return+home." alt="Typing SVG" />
 
-📄 **[Download the Full Materials List (PDF)](./docs/materials.pdf)**
-
-*Quick Specs:*
-* **Microcontroller:** (e.g., Raspberry Pi 4 / Arduino Mega)
-* **Motors:** High-torque DC motors with encoders
-* **Chassis:** Reinforced aluminum alloy
-* **Power:** LiPo Battery Pack + Solar trickle charge
+> **The Goal:** To develop a semi-autonomous rover capable of navigating extraterrestrial terrain, identifying viable geological samples, and retrieving them securely—keeping human astronauts safe in orbit.
 
 ---
 
-## 📸 Mission Gallery
-*A look at the rover in action and the design process.*
+## 📡 The Design Phase
 
-| Prototype Design | First Test Run |
-| :---: | :---: |
-| ![Design Sketch]([./assets/images/design_sketch.png](https://scontent.fkgl2-2.fna.fbcdn.net/v/t1.15752-9/609272509_1663956321237963_6733345158116729970_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=eRsTHm1OPV0Q7kNvwGOUz-B&_nc_oc=AdnhSyzlT8O3lLsC5eqFCrw4G5crAn5GlQgkE_bF8ygut8BZSjNaHXsqm6CiKXv-kuQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fkgl2-2.fna&oh=03_Q7cD4QGj10SFE_3AI8JbT6cLvhZZdJc_lomdS4qsytO1mwOlMQ&oe=698BA7DF)) 
-| *Initial CAD rendering* | *Field test in rocky terrain* |
+We are currently in **Phase 1: Blueprint & Logic Mapping**. Before we cut metal, we are finalizing the chassis geometry and the sensor array integration.
 
-*(Note: Upload your images to the `assets/images/` folder and update the filenames above to match!)*
+<div align="center">
+
+| **Current Core Schematic** |
+| :---: |
+| <img src="./assets/images/design_sketch.png" alt="Robot Design Sketch" width="600"/> |
+| *Fig 1.0: Initial Concept Draft - Focusing on high-clearance suspension.* |
+
+*(Be sure to add your `design_sketch.png` to the `assets/images/` folder!)*
+
+</div>
 
 ---
+
+## 🧠 Robot Brain & Tech Stack
+
+We are using a hybrid processing architecture to handle navigation and vision simultaneously.
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/Vision-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://opencv.org/)
+[![ROS Noetic](https://img.shields.io/badge/OS-ROS_Noetic-22314E?style=flat-square&logo=ros&logoColor=white)](https://www.ros.org/)
+[![Raspberry Pi](https://img.shields.io/badge/Hardware-Raspberry_Pi_4-C51A4A?style=flat-square&logo=Raspberry%20Pi&logoColor=white)](https://www.raspberrypi.org/)
+
+</div>
+
+### Mission Modules Structure
+
+Instead of basic code, we are building distinct operational modules:
+
+```mermaid
+graph TD;
+    A[🛰️ Mission Control] -->|Coordinates| B(🧠 Main Logic Core);
+    B --> C{Obstacle Detected?};
+    C -- Yes --> D[🛡️ Evasive Maneuvers];
+    C -- No --> E[🔭 Scan for Samples];
+    E --> F{Sample Found?};
+    F -- Yes --> G[🦾 Activate Arm Sequence];
+    F -- No --> B;
+    G --> H[📦 Secure Storage];
+    H --> B;
