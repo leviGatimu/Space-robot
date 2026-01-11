@@ -39,16 +39,11 @@ We are currently in **Phase 1: Blueprint & Logic Mapping**. Before we cut metal,
 
 <div align="center">
 
-| Angle A | Angle B | Angle C |
-| :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/48c0ca60-4f4e-4398-84ca-aab26ace0077" width="250"/> | <img src="./assets/images/image3.png" width="250"/> | <img src="./assets/images/image4.png" width="250"/> |
-| **Front Profile** | **Side Profile** | **Rear Suspension** |
-<img width="999" height="563" alt="image 1" src="" />
+<img width="999" height="563" alt="image 1" src="https://github.com/user-attachments/assets/48c0ca60-4f4e-4398-84ca-aab26ace0077" />
 
-| Detail A | Detail B | Detail C |
-| :---: | :---: | :---: |
-| <img src="./assets/images/image5.png" width="250"/> | <img src="./assets/images/image6.png" width="250"/> | <img src="./assets/images/image1.png" width="250"/> |
-| **Arm Mechanism** | **Sensor Array** | **Full Assembly** |
+<img width="1015" height="680" alt="image 2" src="https://github.com/user-attachments/assets/060c5371-0471-46da-96b3-78353c363a79" />
+
+![image 3](https://github.com/user-attachments/assets/9af3cabf-6907-46c7-a16a-e9ccfef0f1d7)
 
 </div>
 
