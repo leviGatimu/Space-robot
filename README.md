@@ -24,12 +24,30 @@ We are currently in **Phase 1: Blueprint & Logic Mapping**. Before we cut metal,
 
 <div align="center">
 
-| **Current Core Schematic** |
+| **Main Prototype Concept** |
 | :---: |
-| <img src="" alt="Robot Design Sketch" width="600"/> |
-| *Fig 1.0: Initial Concept Draft - Focusing on high-clearance suspension.* |
+| <img src="./assets/images/image1.png" alt="Main Robot Design" width="600"/> |
+| *Fig 1.0: Primary Concept Draft* |
 
-*(Be sure to add your `design_sketch.png` to the `assets/images/` folder!)*
+</div>
+
+---
+
+## 📸 Mission Gallery: Visual Log
+
+*Below are the design iterations and environmental tests.*
+
+<div align="center">
+
+| Angle A | Angle B | Angle C |
+| :---: | :---: | :---: |
+| <img src="./assets/images/image2.png" width="250"/> | <img src="./assets/images/image3.png" width="250"/> | <img src="./assets/images/image4.png" width="250"/> |
+| **Front Profile** | **Side Profile** | **Rear Suspension** |
+
+| Detail A | Detail B | Detail C |
+| :---: | :---: | :---: |
+| <img src="./assets/images/image5.png" width="250"/> | <img src="./assets/images/image6.png" width="250"/> | <img src="./assets/images/image1.png" width="250"/> |
+| **Arm Mechanism** | **Sensor Array** | **Full Assembly** |
 
 </div>
 
@@ -63,11 +81,3 @@ graph TD;
     F -- No --> B;
     G --> H[📦 Secure Storage];
     H --> B;
-```
-🛠️ Hardware Materials & Manifest
-We have compiled the initial Bill of Materials required to move to the build phase.
-
-<a href=""📄 CLICK HERE TO VIEW THE FULL MATERIALS PDF
-
-
-Includes specs for high-torque servos, LiPo power specs, and chassis aluminum grades.
