@@ -37,31 +37,9 @@ We have compiled a complete list of all sensors, motors, chassis parts, and micr
 
 | Prototype Design | First Test Run |
 | :---: | :---: |
-| ![Design Sketch](./assets/images/design_sketch.png) | ![Test Run](./assets/images/test_run.jpg) |
+| ![Design Sketch]([./assets/images/design_sketch.png](https://scontent.fkgl2-2.fna.fbcdn.net/v/t1.15752-9/609272509_1663956321237963_6733345158116729970_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=eRsTHm1OPV0Q7kNvwGOUz-B&_nc_oc=AdnhSyzlT8O3lLsC5eqFCrw4G5crAn5GlQgkE_bF8ygut8BZSjNaHXsqm6CiKXv-kuQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fkgl2-2.fna&oh=03_Q7cD4QGj10SFE_3AI8JbT6cLvhZZdJc_lomdS4qsytO1mwOlMQ&oe=698BA7DF)) 
 | *Initial CAD rendering* | *Field test in rocky terrain* |
 
 *(Note: Upload your images to the `assets/images/` folder and update the filenames above to match!)*
 
 ---
-
-## 💻 Tech Stack
-* **Language:** Python (for vision/logic) / C++ (for motor control)
-* **Libraries:** OpenCV, GPIO Zero
-* **Simulation:** ROS (Robot Operating System) / Gazebo
-
-## 🚀 Getting Started
-
-### Prerequisites
-1.  Python 3.8+
-2.  (List any specific drivers needed)
-
-### Installation
-```bash
-# Clone the repository
-git clone [https://github.com/yourusername/space-robot-project.git](https://github.com/yourusername/space-robot-project.git)
-
-# Navigate to directory
-cd space-robot-project
-
-# Install dependencies
-pip install -r requirements.txt
