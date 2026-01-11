@@ -1,4 +1,4 @@
-<div align="center">
+<img width="525" height="369" alt="image 5" src="https://github.com/user-attachments/assets/df58251a-286d-4da7-800e-2db188ee8158" /><div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=PLANETARY%20SCOUT&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Autonomous%20Sample%20Collection%20Unit&descAlignY=55&descAllign=60" alt="Planetary Scout Header" width="100%"/>
 </div>
 
@@ -18,18 +18,6 @@
 
 ---
 
-## 📡 The Design Phase
-
-We are currently in **Phase 1: Blueprint & Logic Mapping**. Before we cut metal, we are finalizing the chassis geometry and the sensor array integration.
-
-<div align="center">
-
-| **Main Prototype Concept** |
-| :---: |
-| <img src="./assets/images/image1.png" alt="Main Robot Design" width="600"/> |
-| *Fig 1.0: Primary Concept Draft* |
-
-</div>
 
 ---
 
@@ -41,9 +29,11 @@ We are currently in **Phase 1: Blueprint & Logic Mapping**. Before we cut metal,
 
 <img width="999" height="563" alt="image 1" src="https://github.com/user-attachments/assets/48c0ca60-4f4e-4398-84ca-aab26ace0077" />
 
-<img width="1015" height="680" alt="image 2" src="https://github.com/user-attachments/assets/060c5371-0471-46da-96b3-78353c363a79" />
+<img width="518" height="386" alt="image 4" src="https://github.com/user-attachments/assets/508e1ceb-56e8-423b-bf54-0d4a49bc0cd7" />
 
-![image 3](https://github.com/user-attachments/assets/9af3cabf-6907-46c7-a16a-e9ccfef0f1d7)
+
+<img width="525" height="369" alt="image 5" src="https://github.com/user-attachments/assets/da4d599b-476b-497b-aab6-e761916ae8b4" />
+
 
 </div>
 
