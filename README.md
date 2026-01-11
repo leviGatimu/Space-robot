@@ -30,9 +30,6 @@
 
 <img width="518" height="386" alt="image 4" src="https://github.com/user-attachments/assets/508e1ceb-56e8-423b-bf54-0d4a49bc0cd7" />
 
-![image 3](https://github.com/user-attachments/assets/e73169de-7f87-4a35-b3a4-2d3114fd9ede)
-
-
 <img width="525" height="369" alt="image 5" src="https://github.com/user-attachments/assets/da4d599b-476b-497b-aab6-e761916ae8b4" />
 
 
