@@ -43,6 +43,7 @@ We are currently in **Phase 1: Blueprint & Logic Mapping**. Before we cut metal,
 | :---: | :---: | :---: |
 | <img src="./assets/images/image2.png" width="250"/> | <img src="./assets/images/image3.png" width="250"/> | <img src="./assets/images/image4.png" width="250"/> |
 | **Front Profile** | **Side Profile** | **Rear Suspension** |
+<img width="999" height="563" alt="image 1" src="https://github.com/user-attachments/assets/48c0ca60-4f4e-4398-84ca-aab26ace0077" />
 
 | Detail A | Detail B | Detail C |
 | :---: | :---: | :---: |
